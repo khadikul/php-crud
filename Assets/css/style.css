@@ -1,0 +1,25 @@
+h2{
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #9c27b0;
+}
+
+a{
+	color: red;
+	padding-left: 10px;
+	color: #4caf50;
+	font-size: 18px;
+	text-decoration: none;
+
+}
+
+p{
+	font-size: 20px;
+	color: #009688;
+}
+
+.add_student{
+	width: 60%;
+	margin: auto;
+}
