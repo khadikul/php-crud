@@ -16,9 +16,11 @@ if('seed' == $task){
     seed();
     $info = "Seeding Is Completed";
 }
+
 $fname = '';
 $lname = '';
 $roll = '';
+
 if(isset($_POST['submit'])){
     $fname = filter_input(INPUT_POST, 'fname', FILTER_SANITIZE_STRING);
     $lname = filter_input(INPUT_POST, 'lname', FILTER_SANITIZE_STRING);
